@@ -1,6 +1,12 @@
 
 // Type exports for consumers
 // Add specific types as needed
+/**
+ * truncate
+ * @param str
+ * @param maxLength
+ * @param suffix = "..."
+ */
 export function truncate(str: string, maxLength: number, suffix = "..."): string {
   if (str.length <= maxLength) return str;
   return str.slice(0, maxLength - suffix.length) + suffix;
