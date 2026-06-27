@@ -22,3 +22,11 @@ npm install string-utils
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'string-utils';
+// See API section for available functions
+```
