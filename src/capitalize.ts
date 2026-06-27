@@ -3,5 +3,6 @@
  * @param str
  */
 export function capitalize(str: string): string {
+  if (str === null || str === undefined) throw new Error("Invalid input");
   return str.replace(/\b\w/g, c => c.toUpperCase());
 }
